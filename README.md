@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  link rel="stylesheet" href="Lab2d.css"
+  link rel="stylesheet" href="Lab1d.css"
 </head>
 <body>
 
