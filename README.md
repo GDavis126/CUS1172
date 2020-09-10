@@ -2,9 +2,6 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="https://github.com/GDavis126/CUS1172/blob/master/Lab1d.css">
-  <style>
-  
-  </style>
 </head>
 <body>
 
