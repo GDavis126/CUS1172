@@ -66,7 +66,7 @@
 
 <div id="About" class="container">
 <h1 class="ridge"> About Section</h1>
-<p class="text-white"> My name is Garret Davis. I am a fourth year student at St. Johns university. I was born and raised in Newburgh New York</p>
+<p class="text-white"> My name is Garret Davis. I am a fourth year student at St. Johns university. I was born and raised in Newburgh New York.</p>
 </div>
 
 
@@ -92,7 +92,7 @@
   <div class="row">
     <div class="col-sm-3 col-md-6" >
 <h1 class="ridge">General Interest</h1>
-<p class="text-white"> I have a general interst in sports. My favorite sport is basketball and my favorite team is th New York Knicks.</p>
+<p class="text-white"> I have a general interest in sports. My favorite sport is basketball and my favorite team is th New York Knicks.</p>
 </div>
 </div>
 </div>
