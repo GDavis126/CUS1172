@@ -11,9 +11,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://github.com/GDavis126/CUS1172/tree/master/bootstrap-4.5.2-dist/bootstrap-4.5.2-dist">
    <link href="css/bootstrap.min.css" rel="stylesheet">
-   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  
+   
   </head>
 
 
