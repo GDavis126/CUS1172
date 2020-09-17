@@ -1,51 +1,102 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <link rel="stylesheet" type="text/css" href="https://github.com/GDavis126/CUS1172/blob/master/Lab1d.css">
+  <link rel="stylesheet" href="Lab2nd.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </head>
 </head>
-<body>
 
-<img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" alt="Profile Pic">
 
-<h1 class="ridge"> Bio </h1>
+
+<body class="bg-secondary">
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#" class="text-white">Toggle Menu</a>
+      </div>
+      <div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="#Bio" class="bg-secondary text-white">Bio</a></li>
+            <li><a href="#About" class="bg-secondary text-white">About</a></li>
+            <li><a href="#Education" class="bg-secondary text-white">Education</a></li>
+            <li><a href="#Experience" class="bg-secondary text-white">Experience</a></li>
+            <li><a href="#General Interests" class="bg-secondary text-white">General Interest</a></li>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <h1 class="ridge"></h1>
+
+
+<div class="container">
+<img src="C:\Users\gman0\Downloads\20200915_202226.png" class="img-rounded" alt="Profile Picture">
+</div>
+
+
+
+
+
+
+
+<div class="container">
+<h1 id="Bio" class="ridge"> Bio </h1>
 <dl>
-  <dt> Garret Davis </dt>
-  <dt> Information Technology Major</dt>
+  <dt class="text-white"> Garret Davis </dt>
+  <dt class="text-white"> Information Technology Major</dt>
 </dl>
+</div>
 
-<h2 class="ridge"> About Section</h2>
-<p> My name is Garret Davis. I am a fourth year student at St.Johns university. I was born and raised in Newburgh New York</p>
+<div id="About" class="container">
+<h1 class="ridge"> About Section</h1>
+<p class="text-white"> My name is Garret Davis. I am a fourth year student at St. Johns university. I was born and raised in Newburgh New York</p>
+</div>
 
-<h3 class="ridge">Education</h3>
+
+<div id="Education" class="container">
+<h1 class="ridge">Education</h1>
    <ul>
-   <li>College:<span style="color:red"> SJU</span></li>
-   <li> High School:<span style="color:blue"> OLL</span></li>
-   <li> Coding Experience:<span style="color:orange"> Java</span></li>
+   <li class="text-white">College:<span style="color:red"> SJU</span></li>
+   <li class="text-white"> High School:<span style="color:blue"> OLL</span></li>
+   <li class="text-white"> Coding Experience:<span style="color:orange"> Java</span></li>
    </ul>
-<h4 class="ridge">Work Experience/Internships</h4>
-<table>
-  <tr>
-    <th>Retail</th>
-    <th>IT</th>
-  </tr>
-<tr>
-<th>  </th>
+</div>
 
-  </tr>
-  <tr>
-    <td>Shopping Mall</td>
-    <td>Office</td>
-  </tr>
-</table>
-<h5 class="ridge">General Interest</h5>
-<p> I have a general nterst in sprts. My favorite sprt is basketball and my favorite team is th New York Knicks.</p>
-<h6 class="ridge"> Favorite Music Video and Website</h6>
-<video width="400"controls>
-  <source src="https://www.youtube.com/watch?v=XqZsoesa55w&t=71s
-  type=video/mp4">
-</video>
-<a href="https://www.espn.com/"> ESPN</a>
 
+<div id="Experience" class="container">
+<h1 class="ridge">Work Experience/Internships</h1>
+<ul class="list-group">
+  <li class="list-group-item">Retail <span class="badge">3 Years</span></li>
+  <li class="list-group-item">I.T. <span class="badge">2 Years</span></li>
+</ul>
+</div>
+
+<div id="General Interests" class="container">
+  <div class="row">
+    <div class="col-sm-3 col-md-6" >
+<h1 class="ridge">General Interest</h1>
+<p class="text-white"> I have a general interst in sports. My favorite sport is basketball and my favorite team is th New York Knicks.</p>
+</div>
+</div>
+</div>
+<h1 class="ridge"></h1>
 </body>
 
 </html>
