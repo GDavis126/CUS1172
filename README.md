@@ -16,7 +16,7 @@
 
 
 
-<body style="background-color:#292b2c">
+<body class="bg-secondary">
 
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
