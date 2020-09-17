@@ -47,7 +47,7 @@
 
 
 <div class="container">
-<img src="C:\Users\gman0\Downloads\20200915_202226.png" class="img-rounded" alt="Profile Picture">
+<img src="https://github.com/GDavis126/CUS1172/blob/master/20200915_202226.png" class="img-rounded" alt="Profile Picture">
 </div>
 
 
