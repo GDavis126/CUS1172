@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script src="my_javascript.js"></script>
 
-    <script src="test.js"></script>
     <link rel="stylesheet" href="Lab3nd.css">
   </head>
   <body>
