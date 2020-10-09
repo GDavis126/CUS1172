@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
   <head>
     <script src="my_javascript.js"></script>
