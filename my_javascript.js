@@ -22,7 +22,7 @@ document.querySelector("#new-task").onsubmit = function() {
     if (element.className === 'remove') {
       element.parentElement.remove();
     }
-    //Marks and Unmarks
+
     var list = document.querySelector('ul');
 list.addEventListener('click', function(ev) {
   if (ev.target.tagName === 'LI') {
