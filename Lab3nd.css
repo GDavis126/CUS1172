@@ -1,15 +1,31 @@
 body {
+  background-color: #5167ac;
   max-width: 500px;
   margin: 0 auto;
+  border-style: solid;
 }
 
+button.remove:hover{background-color: #FF4F55;
+
+}
+h1{
+  text-align: center;
+}
+input{
+
+  cursor: pointer;
+
+}
 input:focus {
+  cursor: pointer;
   outline: none;
+  background-color: lightblue;
 }
 
 li {
   text-align: left;
-  font-size: 40px;
+  font-size: 45px;
+  font-style: normal;
   list-style: none;
   margin: 0;
 }
@@ -25,7 +41,7 @@ ul li {
 }
 
 ul li:hover {
-  background: #ddd;
+  background: lightgrey;
 }
 
 ul li.checked::before {
