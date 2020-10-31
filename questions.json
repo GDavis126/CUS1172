@@ -1,0 +1,26 @@
+[
+  {
+    "question": "What is 2+2??",
+    "choice1": "4",
+    "choice2": "20",
+    "choice3": "8",
+    "choice4": "5",
+    "answer": 1
+  },
+  {
+    "question": "What is 10*10?",
+    "choice1": "1000",
+    "choice2": "20",
+    "choice3": "100",
+    "choice4": "25",
+    "answer": 3
+  },
+  {
+    "question": " What is the square root of 64",
+    "choice1": "124",
+    "choice2": "32",
+    "choice3": "4",
+    "choice4": "8",
+    "answer": 4
+  }
+]
