@@ -1,14 +1,14 @@
 :root {
-  background-color: #ecf5ff;
+  background-color: #red;
   font-size: 62.5%;
 }
 
 * {
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:Helvetica, sans-serif;
   margin: 0;
   padding: 0;
-  color: #333;
+  color: #334;
 }
 
 h1,
@@ -26,7 +26,7 @@ h1 {
 
 h1 > span {
   font-size: 2.4rem;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 h2 {
@@ -40,7 +40,6 @@ h3 {
   font-weight: 500;
 }
 
-/* UTILITIES */
 
 .container {
   width: 100vw;
@@ -78,7 +77,6 @@ h3 {
   display: none;
 }
 
-/* BUTTONS */
 .btn {
   font-size: 1.8rem;
   padding: 1rem 0;
@@ -94,12 +92,4 @@ h3 {
 .btn:hover {
   cursor: pointer;
   box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
-  transform: translateY(-0.1rem);
-  transition: transform 150ms;
-}
-
-.btn[disabled]:hover {
-  cursor: not-allowed;
-  box-shadow: none;
-  transform: none;
 }
